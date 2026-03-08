@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# 仮想環境
+.venv/
+venv/
+ENV/
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 画像ファイル (入出力)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+!README_images/
